@@ -7,6 +7,7 @@
 	objects = {
 
 /* Begin PBXBuildFile section */
+		7444CC641DE3989700BF00A4 /* Repo.m in Sources */ = {isa = PBXBuildFile; fileRef = 7444CC631DE3989700BF00A4 /* Repo.m */; };
 		74DAA80B1DE37274006C0722 /* main.m in Sources */ = {isa = PBXBuildFile; fileRef = 74DAA80A1DE37274006C0722 /* main.m */; };
 		74DAA80E1DE37274006C0722 /* AppDelegate.m in Sources */ = {isa = PBXBuildFile; fileRef = 74DAA80D1DE37274006C0722 /* AppDelegate.m */; };
 		74DAA8111DE37274006C0722 /* ViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 74DAA8101DE37274006C0722 /* ViewController.m */; };
@@ -16,6 +17,8 @@
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
+		7444CC621DE3989700BF00A4 /* Repo.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = Repo.h; sourceTree = "<group>"; };
+		7444CC631DE3989700BF00A4 /* Repo.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = Repo.m; sourceTree = "<group>"; };
 		74DAA8061DE37274006C0722 /* GithubRepos.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = GithubRepos.app; sourceTree = BUILT_PRODUCTS_DIR; };
 		74DAA80A1DE37274006C0722 /* main.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = main.m; sourceTree = "<group>"; };
 		74DAA80C1DE37274006C0722 /* AppDelegate.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = AppDelegate.h; sourceTree = "<group>"; };
@@ -67,6 +70,8 @@
 				74DAA8171DE37274006C0722 /* LaunchScreen.storyboard */,
 				74DAA81A1DE37274006C0722 /* Info.plist */,
 				74DAA8091DE37274006C0722 /* Supporting Files */,
+				7444CC621DE3989700BF00A4 /* Repo.h */,
+				7444CC631DE3989700BF00A4 /* Repo.m */,
 			);
 			path = GithubRepos;
 			sourceTree = "<group>";
@@ -154,6 +159,7 @@
 				74DAA8111DE37274006C0722 /* ViewController.m in Sources */,
 				74DAA80E1DE37274006C0722 /* AppDelegate.m in Sources */,
 				74DAA80B1DE37274006C0722 /* main.m in Sources */,
+				7444CC641DE3989700BF00A4 /* Repo.m in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -312,6 +318,7 @@
 				74DAA81F1DE37274006C0722 /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
 		};
 /* End XCConfigurationList section */
 	};
